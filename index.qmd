@@ -1,5 +1,5 @@
 ---
-title: "mtrenbeath"
+title: "Mia Trenbeath"
 ---
 
 This is a Quarto website.
