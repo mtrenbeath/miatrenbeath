@@ -1,11 +1,8 @@
 ---
 title: "Mia Trenbeath"
+subtitle: "Student at the University of Rochester"
+image: headshot.png
+template: trestles
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
