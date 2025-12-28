@@ -6,23 +6,25 @@ website:
   title: MIA TRENBEATH
   navbar:
     right:
-      - href: about.qmd
-        text: ABOUT
       - href: projects.qmd
         text: PROJECTS
       - href: writing.qmd
         text: WRITING
+      - href: contact.qmd
+        text: CONTACT
   page-footer:
-    left: 2025 Mia Trenbeath
+    left: © Copyright 2025 Mia Trenbeath
+    right: Built with [Github](https://github.com/mtrenbeath/miatrenbeath), [R](https://www.r-project.org/about.html), and [Quarto](https://quarto.org/)
     
 format:
   html:
+    include-font-awesome: true
     theme:
     - cosmo
     - styles.scss
     toc: true
-    include-font-awesome: true
     page-layout: full
+    include-after-body: fa.html
 
 
 

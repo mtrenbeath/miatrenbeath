@@ -9,78 +9,94 @@
   $primary-color: #0d1d70;
   $background-color: #FFFDF8;
   
-  $accent-color1: #4661EA;
-  $accent-color2: #D81159;
-  $accent-color3: #00abe7;
-  $accent-color4: #fe5d26;
-  $accent-color5: #F6AE2D;
+  $accent-color: #4661EA;
+  $accent-color-light: #9096F1;
   
-// Font size definition
+// Font size and family definitions
 
+  $body: 18px;
   $navbar: 24px;
-  $navfont: 'Crimson Pro';
-  $footer: 16px;
+  
+// Color settings
+
+  $body-bg: $background-color;
+  $body-color: $primary-color;
+  
+  $navbar-bg: $background-color;
+  $navbar-fg: $primary-color;
+  
+  $footer-bg: $primary-color;
+  $footer-fg: $background-color;
+  
+  $link-color: $accent-color;
+
+// Font size settings
+
+  $font-size-root: $body;
+
+  $toc-font-size: $body;
+  $h1-font-size: $navbar;
+  $h2-font-size: $navbar;
+  $h3-font-size: $body;
 
 /*-- scss:rules --*/
 
-// Font and general theme settings
+// Font family settings
+
+$font-family-sans-serif: 'Crimson Pro', serif;
+$font-family-monospace: 'Courier New', monospace;
+
+body{
+  font-family: 'Crimson Pro', serif;
+}
 
 p {
   font-family: 'Crimson Pro', serif;
-  color: $primary-color;
-}
-
-body{
-  background-color: $background-color;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Source Serif 4', serif;
-  color: $primary-color;
 }
 
 // Navigation bar settings
 
-.navbar {
-  background-color: $background-color;
-}
-
 .navbar * {
     
-    color: $primary-color;
+    font-size: $navbar;
     transition-duration: 0.2s;
     
     &:hover{
-    color: $accent-color1;
+    color: $accent-color;
     }
     
     &:active{
-    color: $accent-color1;
+    color: $accent-color;
     }
-}
-
-.navbar-brand {
-  font-family: $navfont, serif;
-  font-size: $navbar;
-}
-
-.navbar-nav .nav-link {
-  font-family: $navfont, serif;
-  font-size: $navbar;
-}
-
-nav#TOC.toc-active {
-  font-family: $navfont, serif;
-  color: $primary-color;
 }
 
 // Footer
 
-.nav-footer {
-  background-color: $primary-color;
-  & p{
-    color: $background-color;
-    font-size: $footer;
-  }
+.nav-footer p{
+  font-size: $body;
 }
+
+.nav-footer a{
+    color: $accent-color-light;
+  }
+  
+div.nav-footer {
+  
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  
+  display: flex;
+  align-items: center;
+  
+}
+
+footer.footer {
+  line-height: 1;
+}
+
 

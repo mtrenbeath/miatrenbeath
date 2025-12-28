@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
     "text": "About this site"
   },
   {
-    "objectID": "about.html#header-2",
-    "href": "about.html#header-2",
-    "title": "About",
+    "objectID": "contact.html#header-2",
+    "href": "contact.html#header-2",
+    "title": "Contact",
     "section": "Header 2",
     "text": "Header 2\n\nHeader 3\n\nHeader 4\n\nHeader 5\n\n\nHeader 6 ABOUT\nThis site is super awesome! ABOUT"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mia Trenbeath",
+    "section": "",
+    "text": "I am an undergraduate student (currently a sophomore) majoring in Optical Engineering and minoring in Physics at the University of Rochester. My primary research interests are in experimental quantum optics and engineering.\nPlaceholder text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }
 ]
