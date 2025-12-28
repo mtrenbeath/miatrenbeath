@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "MIA TRENBEATH"
+  title: MIA TRENBEATH
   navbar:
     right:
       - href: about.qmd
@@ -12,13 +12,16 @@ website:
         text: PROJECTS
       - href: writing.qmd
         text: WRITING
-
+  page-footer:
+    left: 2025 Mia Trenbeath
+    
 format:
   html:
     theme:
-    - cosmo 
+    - cosmo
     - styles.scss
     toc: true
+    include-font-awesome: true
     page-layout: full
 
 
